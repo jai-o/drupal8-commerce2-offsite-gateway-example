@@ -1,0 +1,15 @@
+name: Custom Payment Gateway
+description: Provides Commerce integration for the Custom Gateway.
+type: module
+
+core: 8.x
+package: Commerce (contrib)
+
+# configure: /admin/commerce/config/payment-gateways
+configure: commerce_custom.form
+
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_order
+  - commerce:commerce_checkout
+  - commerce:commerce_payment

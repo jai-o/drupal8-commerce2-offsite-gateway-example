@@ -1,0 +1,29 @@
+commerce_custom.commerce_payment_gateway.plugin.custom_redirect_checkout:
+  type: commerce_payment_gateway_configuration
+  label: 'Custom Payment Gateway configuration'
+  mapping:
+    example_user_id:
+      type: text
+      label: 'example_user_id'
+    example_user_cred:
+      type: text
+      label: 'example_user_cred'
+commerce_custom.settings:
+  type: config_object
+  label: 'Custom URL and Mode Settings'
+  mapping:
+    custom:
+      type: mapping
+      mapping:
+        auth_url:
+          type: text
+          label: 'auth_url'
+        pay_url:
+          type: text
+          label: 'pay_url'
+        live_mode:
+          type: boolean
+          label: 'live_mode'
+        log:
+          type: boolean
+          label: 'log'

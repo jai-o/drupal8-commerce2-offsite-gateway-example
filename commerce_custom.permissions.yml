@@ -1,0 +1,4 @@
+administer commerce_custom:
+  title: 'Administer Custom Payment Gateway'
+  description: 'Perform administration tasks'
+  restrict access: TRUE

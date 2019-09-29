@@ -1,0 +1,5 @@
+commerce_custom.form:
+  route_name: commerce_custom.form
+  title: 'Custom Payment Gateway'
+  description: 'URL and Mode Settings for the Custom module.'
+  parent: system.admin_config_system

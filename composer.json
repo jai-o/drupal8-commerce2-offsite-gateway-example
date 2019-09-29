@@ -1,0 +1,6 @@
+{
+  "name": "jnmist/drupal8-commerce2-offsite-gateway-example",
+  "description": "An integration between Drupal 8 with Commerce 2 and a Custom gateway. An example.",
+  "type": "drupal-module",
+  "require": {}
+}

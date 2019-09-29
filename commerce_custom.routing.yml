@@ -1,0 +1,13 @@
+commerce_custom.form:
+  path: '/admin/config/system/commerce_custom'
+  defaults:
+    _title: 'Custom Payment Gateway'
+    _form: '\Drupal\commerce_custom\Form\BasicSettingsForm'
+  requirements:
+    _permission: 'access commerce administration pages'
+commerce_custom.finish:
+  path: '/payment/finish'
+  defaults:
+    _controller: '\Drupal\commerce_custom\Controller\ResultController::onFinish'
+  requirements:
+    _access: 'TRUE'
